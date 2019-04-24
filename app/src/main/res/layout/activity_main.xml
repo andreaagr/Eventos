@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/cursor"
+        android:text="CLICK XML"
+        android:onClick="click"
+
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/click2"
+        android:text="CLICK KOTLIN"
+        android:id="@+id/boton2"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/longclick"
+        android:text="LONG CLICK"
+        android:id="@+id/longclick"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/focuss"
+        android:drawableRight="@drawable/teclado"
+        android:id="@+id/focus"
+        android:text="FOCUS &amp; ON_KEY"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/canasta"
+        android:text="DRAG CON ON_TOUCH"
+        android:id="@+id/drag"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/pintura"
+        android:text="DIBUJAR CON ON_TOUCH"
+        android:id="@+id/dibujar"
+
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:drawableLeft="@drawable/swipe"
+        android:text="SWIPE CON ON_TOUCH"
+        android:id="@+id/swip"
+        />
+</TableLayout>
